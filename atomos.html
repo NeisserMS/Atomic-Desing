@@ -30,6 +30,18 @@
             color: #000;
         }
 
+        
+        .img-o img {
+            width: 96%;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
         .blog-footer p small {
             font-size: 17px;
         }
@@ -44,28 +56,36 @@
 </head>
 
 <body>
-    <div class="container  bg-color-muted-light p-3 mb-4">
-        <h1 class="font-italic"> <a href="index.html">Diseño Atómico </a></h1>
-        <span><a href="atomos.html">Átomos</a> | <a href="moleculas.html">Moléculas</a> | <a
-                href="organismos.html">Organismos</a> | <a href="plantillas.html">Plantillas</a> | <a
-                href="paginas.html">Páginas</a></span>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-3 col-sm-12 col-md-12 col-lg-12 p-3 mb-4">
+                <h1 class="font-italic">Diseño Atómico</h1>
+                <span><a href="atomos.html">Átomos</a> | <a href="moleculas.html">Moléculas</a> | <a
+                        href="organismos.html">Organismos</a> | <a href="plantillas.html">Plantillas</a> | <a
+                        href="paginas.html">Páginas</a></span>
+            </div>
+        </div>
     </div>
 
     <hr>
-
-    <div class="container p-3 mb-4">
-        <h3>Botones</h3>
-        <button type="button" class="btn btn-primary">Primary</button>
-        <button type="button" class="btn btn-secondary">Secondary</button>
-        <button type="button" class="btn btn-success">Success</button>
-        <button type="button" class="btn btn-info">Info</button>
-        <button type="button" class="btn btn-warning">Warning</button>
-        <button type="button" class="btn btn-danger">Danger</button>
-        <button type="button" class="btn btn-dark">Dark</button>
-        <button type="button" class="btn btn-light">Light</button>
-        <button type="button" class="btn btn-link">Link</button>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 p-3 mb-4">
+                <h3>Botones</h3>
+                <button type="button" class="btn btn-primary">Primary</button>
+                <button type="button" class="btn btn-secondary">Secondary</button>
+                <button type="button" class="btn btn-success">Success</button>
+                <button type="button" class="btn btn-info">Info</button>
+                <button type="button" class="btn btn-warning">Warning</button>
+                <button type="button" class="btn btn-danger">Danger</button>
+                <button type="button" class="btn btn-dark">Dark</button>
+                <button type="button" class="btn btn-light">Light</button>
+                <button type="button" class="btn btn-link">Link</button>
+            </div>
+        </div>
     </div>
     <hr>
+
     <div class="container bg-color-muted-light p-2 mb-4">
         <h3>Fuentes</h3>
         <div class="row">
@@ -126,7 +146,7 @@
                 <ul>
                     <li>Elemento 1</li>
                     <li>Elemento 2</li>
-                    <li>Elemento 3</li> 
+                    <li>Elemento 3</li>
                 </ul>
             </div>
         </div>
@@ -148,7 +168,7 @@
         <h3> Input </h3>
         <div class="row">
             <div class="col">
-               
+
                 <input type="text" id="fname" name="fname"><br><br>
             </div>
         </div>
@@ -184,7 +204,7 @@
                     100 +
                     <input type="number" id="b" name="b" value="50">
                     =
-                    <output name="x" for="a b"></output>    
+                    <output name="x" for="a b"></output>
                 </form>
             </div>
         </div>
@@ -192,20 +212,21 @@
 
     <hr>
 
-    <div class="container p-2 mb-4">
+  
+    <div class="container img-o p-2 mb-4">
         <h3> Imágenes </h3>
         <br>
         <div class="row">
-                <div class=" col-8">
-                    <img src="img/caja2.png" alt="caja1" class="img-responsive">
-                </div>
-                <div class=" col-4">
-                    <img src="img/caja1.png" alt="caja2" class="img-responsive">
-                </div>
+            <div class="col-xs-12 col-sm-8 col-md-6 col-lg-8">
+                <img src="img/caja2.png" alt="caja1">
+            </div>
+            <div class="col-xs-12 col-sm-4col-md-6 col-lg-4">
+                <img src="img/caja1.png" alt="caja2">
             </div>
         </div>
-    
-        <br>
+    </div>
+
+    <br>
 
     <footer class="blog-footer text-center">
         <p> <small> © Copyrigth: <a target="_blank" class="foo" href="https://github.com/NeisserMS">Neisser

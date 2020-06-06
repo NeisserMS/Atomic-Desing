@@ -13,7 +13,6 @@
     <title>Atomic Desing</title>
     <!-- Bootstrap CSS Aquí llama a las hojas de estilo de bootstrap, pero lo hace de un servidor externo-->
     <style>
-
         body {
             background: #f3f3db;
         }
@@ -39,24 +38,39 @@
             color: #c26407;
         }
 
+
+        .img-res img {
+            width: 96%;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
     </style>
 
 
 </head>
 
 <body>
-    <div class="container  bg-color-muted-light p-3 mb-4">
-        <h1 class="font-italic">Diseño Atómico</h1>
-        <span><a href="atomos.html">Átomos</a> | <a href="moleculas.html">Moléculas</a> | <a
-                href="organismos.html">Organismos</a> | <a href="plantillas.html">Plantillas</a> | <a
-                href="paginas.html">Páginas</a></span>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-3 col-sm-12 col-md-12 col-lg-12 p-3 mb-4">
+                <h1 class="font-italic">Diseño Atómico</h1>
+                <span><a href="atomos.html">Átomos</a> | <a href="moleculas.html">Moléculas</a> | <a
+                        href="organismos.html">Organismos</a> | <a href="plantillas.html">Plantillas</a> | <a
+                        href="paginas.html">Páginas</a></span>
+            </div>
+        </div>
     </div>
 
     <hr>
 
-    <div class="container text-center">
+    <div class="container img-res text-center">
         <div class="row justify-content-between">
-            <div class=" col-12">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <img src="img/atomic.png" alt="imagen1" class="img-responsive" width="400px" height="350px">
             </div>
         </div>
@@ -64,23 +78,33 @@
 
     <hr>
 
-    <footer class="blog-footer text-center">
-        <p> <small> © Copyrigth: <a target="_blank" class="foo" href="https://github.com/NeisserMS">Neisser
-                    Sánchez</a></small></p>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <footer class="blog-footer text-center">
+                    <p> <small> © Copyrigth: <a target="_blank" class="foo" href="https://github.com/NeisserMS">Neisser
+                                Sánchez</a></small></p>
 
-        <ul class="list-inline">
-            <li class="list-inline-item"> <a target="_blank" href="https://www.instagram.com/neissercode.21/?hl=es-la">
-                    <i class="icon ion-logo-instagram"></i> </a> </li>
-            <li class="list-inline-item"> <a target="_blank" href=""> <i class="icon ion-logo-twitter"></i> </a> </li>
-            <li class="list-inline-item"> <a target="_blank"
-                    href="https://www.facebook.com/neisserarilson.morenosanchez.9/"> <i
-                        class="icon ion-logo-facebook"></i> </a> </li>
-            <li class="list-inline-item"> <a target="_blank"
-                    href="https://www.youtube.com/channel/UC0czkwt1PdL6SkjIvuuiusQ?view_as=subscriber"> <i
-                        class="icon ion-logo-youtube"></i> </a> </li>
-            <li class="list-inline-item"> <a target="_blank" href=""> <i class="icon ion-logo-dribbble"></i> </a> </li>
-        </ul>
-    </footer>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"> <a target="_blank"
+                                href="https://www.instagram.com/neissercode.21/?hl=es-la">
+                                <i class="icon ion-logo-instagram"></i> </a> </li>
+                        <li class="list-inline-item"> <a target="_blank" href=""> <i class="icon ion-logo-twitter"></i>
+                            </a> </li>
+                        <li class="list-inline-item"> <a target="_blank"
+                                href="https://www.facebook.com/neisserarilson.morenosanchez.9/"> <i
+                                    class="icon ion-logo-facebook"></i> </a> </li>
+                        <li class="list-inline-item"> <a target="_blank"
+                                href="https://www.youtube.com/channel/UC0czkwt1PdL6SkjIvuuiusQ?view_as=subscriber"> <i
+                                    class="icon ion-logo-youtube"></i> </a> </li>
+                        <li class="list-inline-item"> <a target="_blank" href=""> <i class="icon ion-logo-dribbble"></i>
+                            </a> </li>
+                    </ul>
+                </footer>
+            </div>
+        </div>
+    </div>
+
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
@@ -91,4 +115,5 @@
         crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>
