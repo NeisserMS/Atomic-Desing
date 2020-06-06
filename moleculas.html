@@ -21,6 +21,7 @@
             color: #000;
 
         }
+
         .container span a {
             color: #c26407;
         }
@@ -28,6 +29,16 @@
         p small a {
             color: #000;
         }
+
+
+        .pf img {
+            width: 86%;
+            max-width: 400px;
+            margin: 0 auto;
+            width: 100%;
+            height: auto;
+        }
+
 
         .blog-footer p small {
             font-size: 17px;
@@ -41,20 +52,23 @@
 </head>
 
 <body>
-    <div class="container p-3 mb-4">
-        <h1 class="font-italic"> <a href="index.html">Diseño Atómico </a></h1>
-        <span><a href="atomos.html">Átomos</a> | <a href="moleculas.html">Moléculas</a> | <a
-                href="organismos.html">Organismos</a> | <a href="plantillas.html">Plantillas</a> | <a
-                href="paginas.html">Páginas</a></span>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 p-3 mb-4">
+                <h1 class="font-italic"> <a href="index.html">Diseño Atómico </a></h1>
+                <span><a href="atomos.html">Átomos</a> | <a href="moleculas.html">Moléculas</a> | <a
+                        href="organismos.html">Organismos</a> | <a href="plantillas.html">Plantillas</a> | <a
+                        href="paginas.html">Páginas</a></span>
+            </div>
+        </div>
     </div>
-
     <hr>
 
 
     <div class="container">
-        <h3> Label + Input + Button </h3>
         <div class="row justify-content-between">
             <div class=" col-12">
+                <h3> Label + Input + Button </h3>
                 <form>
                     <div class="form-group">
                         <label for="inputEmail"> Nombre </label>
@@ -69,18 +83,20 @@
     </div>
 
     <hr>
-    <div class="container">
+
+    <div class="container pf">
         <h3> Imagen + Titulo + Párrafo</h3> <br>
         <div class="row">
-            <div class="col-2 text-right">
-                <img src="img/caja3.png" alt="imagen1" class="img-responsive">
+            <div class="col-xs-4 col-sm-2 col-md-12 col-lg-2">
+                <img src="img/caja3.png" alt="imagen1">
             </div>
-            <div class="col-10 text-left">
+            <div class="col-xs-8 col-sm-10 col-md-12 col-lg-10">
                 <h4> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, veritatis.</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam accusantium aspernatur dolorum odio
                     beatae? Laborum magni labore dolores ea accusamus temporibus debitis harum, culpa illo saepe
                     voluptate repellat recusandae explicabo perspiciatis, provident totam reprehenderit sed sequi
-                    dignissimos eos modi? Consectetur.</p>
+                    dignissimos eos modi? Consectetur. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis
+                    minima facilis voluptate, itaque a consequatur.</p>
             </div>
         </div>
     </div>
@@ -88,32 +104,41 @@
     <hr>
 
     <div class="container">
-        <h3> Input + Check + Button</h3>
-        <br>
-        <div class="row justify-content-between">
-            <div class=" col-12">
-                <form class="form-inline">
-                    <div class="form-group mb-2">
-                        <input type="text" class="form-control" id="staticEmail2" placeholder="email@example.com">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h3> Input + Check + Button</h3>
+                <br>
+                <div class="row justify-content-between">
+                    <div class=" col-12">
+                        <form class="form-inline">
+                            <div class="form-group mb-2">
+                                <input type="text" class="form-control" id="staticEmail2"
+                                    placeholder="email@example.com">
+                            </div>
+                            <div class="form-group mx-sm-3 mb-2">
+                                <input type="password" class="form-control" id="inputPassword2"
+                                    placeholder="Contraseña">
+                            </div>
+
+                            <div class="form-group form-check">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="checkbox" name="remember" required> Recuérdame
+                                </label>
+                            </div>
+                            <button type="button" class="btn btn-dark"> Enviar </button>
+                        </form>
                     </div>
-                    <div class="form-group mx-sm-3 mb-2">
-                        <input type="password" class="form-control" id="inputPassword2" placeholder="Contraseña">
-                    </div>
-                    <label class="form-check-label mr-sm-3 ">
-                        <input class="form-check-input" type="checkbox"> Recuérdame
-                    </label>
-                    <button type="button" class="btn btn-dark"> Enviar </button>
-                </form>
+                </div>
             </div>
         </div>
     </div>
-    <br> 
+    <br>
 
     <hr>
 
     <div class="container">
         <h3>Label + Input + Advertencia + Check + Button </h3>
-        
+
         <form action="/action_page.php" class="was-validated">
             <div class="form-group">
                 <label for="uname">Nombre:</label>
