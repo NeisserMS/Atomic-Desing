@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="icon" type="image/png" href="img/logo.png" />
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+    <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
+    <title>Atomic Desing</title>
+    <!-- Bootstrap CSS Aquí llama a las hojas de estilo de bootstrap, pero lo hace de un servidor externo-->
+    <style>
+        body {
+            background: #f3f3db;
+        }
+        
+        .font-italic a {
+            color: #000;
+
+        }
+
+        .container span a {
+            color: #c26407;
+        }
+
+        p small a {
+            color: #000;
+        }
+
+        .blog-footer p small {
+            font-size: 17px;
+        }
+
+
+        .miacordeon .card-header {
+            background: #747468;
+        }
+
+        .miacordeon .btn {
+            color: #f3f3db;
+        }
+
+        .blog-footer ul li .icon {
+            color: #c26407;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="container  bg-color-muted-light p-3 mb-4">
+        <h1 class="font-italic"> <a href="index.html">Diseño Atómico </a></h1>
+        <span><a href="atomos.html">Átomos</a> | <a href="moleculas.html">Moléculas</a> | <a
+                href="organismos.html">Organismos</a> | <a href="plantillas.html">Plantillas</a> | <a
+                href="paginas.html">Páginas</a></span>
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+                </form>
+            </div>
+        </nav>
+    </div>
+
+    <br>
+
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class=" col-8">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleSlidesOnly" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleSlidesOnly" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleSlidesOnly" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleSlidesOnly" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="img/fondo.jpg" alt="Primer slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>Lorem ipsum dolor sit, amet consectetur.</h3>
+                                <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis voluptas ab
+                                    voluptatem autem vel. Soluta odio facilis non doloremque quam.</h5>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/fondo.jpg" alt="Segundo slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>Lorem ipsum dolor, sit amet consectetur.</h3>
+                                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus eveniet quas
+                                    ducimus illo eum iusto harum, vitae exercitationem excepturi tempora?</h5>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/fondo.jpg" alt="Tercer slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>Lorem ipsum dolor sit amet consectetur, adipisicing.</h3>
+                                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolor eveniet
+                                    voluptas, et fuga quae corporis voluptate perferendis quasi facilis.</h5>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <a class="carousel-control-prev" href="#carouselExampleSlidesOnly" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleSlidesOnly" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class=col-4>
+                <h2>Lorem ipsum, dolor sit amet consectetur adipisicing.</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo necessitatibus beatae eveniet
+                    architecto possimus nesciunt velit iste, repellat harum ex atque rerum, assumenda qui obcaecati!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et corporis nesciunt consequuntur earum
+                    inventore temporibus.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor voluptatum blanditiis vel sint hic
+                    aut.
+                </p>
+                <button type="button" class="btn btn-dark"> Leer más </button>
+            </div>
+
+        </div>
+    </div>
+    <br>
+
+    <div class="container">
+        <section class="row d-block">
+            <div id="accordion" class="miacordeon">
+
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                                aria-expanded="true" aria-controls="collapseOne">
+                                Lorem ipsum dolor sit amet consectetur.
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. 3 wolf moon
+                            officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                            eiusmod. Brunch 3 wolf
+                            moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                            shoreditch et. Nihil anim
+                            keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad
+                            vegan excepteur
+                            butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth
+                            nesciunt you probably
+                            haven't heard of them accusamus labore sustainable VHS.
+                            <a href="#"> Ver mas....</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                                aria-expanded="false" aria-controls="collapseTwo">
+                                Lorem ipsum dolor sit amet consectetur adipisicing.
+                            </button>
+                        </h5>
+                    </div>
+
+
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. 3 wolf moon
+                            officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                            eiusmod. Brunch 3 wolf
+                            moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                            shoreditch et. Nihil anim
+                            keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad
+                            vegan excepteur
+                            butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth
+                            nesciunt you probably
+                            haven't heard of them accusamus labore sustainable VHS.
+                            <a href="#"> Ver mas...</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+                                aria-expanded="false" aria-controls="collapseThree">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. 3 wolf moon
+                            officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                            eiusmod. Brunch 3 wolf
+                            moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                            shoreditch et. Nihil anim
+                            keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad
+                            vegan excepteur
+                            butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth
+                            nesciunt you probably
+                            haven't heard of them accusamus labore sustainable VHS.
+                            <a href="#"> Ver mas...</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+    <br> <br>
+
+    <footer class="blog-footer text-center">
+        <p> <small> © Copyrigth: <a target="_blank" class="foo" href="https://github.com/NeisserMS">Neisser
+                    Sánchez</a></small></p>
+
+        <ul class="list-inline">
+            <li class="list-inline-item"> <a target="_blank" href="https://www.instagram.com/neissercode.21/?hl=es-la">
+                    <i class="icon ion-logo-instagram"></i> </a> </li>
+            <li class="list-inline-item"> <a target="_blank" href=""> <i class="icon ion-logo-twitter"></i> </a> </li>
+            <li class="list-inline-item"> <a target="_blank"
+                    href="https://www.facebook.com/neisserarilson.morenosanchez.9/"> <i
+                        class="icon ion-logo-facebook"></i> </a> </li>
+            <li class="list-inline-item"> <a target="_blank"
+                    href="https://www.youtube.com/channel/UC0czkwt1PdL6SkjIvuuiusQ?view_as=subscriber"> <i
+                        class="icon ion-logo-youtube"></i> </a> </li>
+            <li class="list-inline-item"> <a target="_blank" href=""> <i class="icon ion-logo-dribbble"></i> </a> </li>
+        </ul>
+    </footer>
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+        integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="/assets/js/jquery-slim.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

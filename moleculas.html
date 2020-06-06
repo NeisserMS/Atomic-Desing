@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="icon" type="image/png" href="img/logo.png" />
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
+    <title>Atomic Desing</title>
+    <!-- Bootstrap CSS Aquí llama a las hojas de estilo de bootstrap, pero lo hace de un servidor externo-->
+    <style>
+        body {
+            background: #f3f3db;
+        }
+
+        .font-italic a {
+            color: #000;
+
+        }
+        .container span a {
+            color: #c26407;
+        }
+
+        p small a {
+            color: #000;
+        }
+
+        .blog-footer p small {
+            font-size: 17px;
+        }
+
+        .blog-footer ul li .icon {
+            color: #c26407;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container p-3 mb-4">
+        <h1 class="font-italic"> <a href="index.html">Diseño Atómico </a></h1>
+        <span><a href="atomos.html">Átomos</a> | <a href="moleculas.html">Moléculas</a> | <a
+                href="organismos.html">Organismos</a> | <a href="plantillas.html">Plantillas</a> | <a
+                href="paginas.html">Páginas</a></span>
+    </div>
+
+    <hr>
+
+
+    <div class="container">
+        <h3> Label + Input + Button </h3>
+        <div class="row justify-content-between">
+            <div class=" col-12">
+                <form>
+                    <div class="form-group">
+                        <label for="inputEmail"> Nombre </label>
+                        <input type="text" class="form-control" id="inputEmail" placeholder="Ingrese su nombre">
+                    </div>
+                    <div class="form-group text-center">
+                        <button type="button" class="btn btn-dark"> Enviar </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <div class="container">
+        <h3> Imagen + Titulo + Párrafo</h3> <br>
+        <div class="row">
+            <div class="col-2 text-right">
+                <img src="img/caja3.png" alt="imagen1" class="img-responsive">
+            </div>
+            <div class="col-10 text-left">
+                <h4> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, veritatis.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam accusantium aspernatur dolorum odio
+                    beatae? Laborum magni labore dolores ea accusamus temporibus debitis harum, culpa illo saepe
+                    voluptate repellat recusandae explicabo perspiciatis, provident totam reprehenderit sed sequi
+                    dignissimos eos modi? Consectetur.</p>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <h3> Input + Check + Button</h3>
+        <br>
+        <div class="row justify-content-between">
+            <div class=" col-12">
+                <form class="form-inline">
+                    <div class="form-group mb-2">
+                        <input type="text" class="form-control" id="staticEmail2" placeholder="email@example.com">
+                    </div>
+                    <div class="form-group mx-sm-3 mb-2">
+                        <input type="password" class="form-control" id="inputPassword2" placeholder="Contraseña">
+                    </div>
+                    <label class="form-check-label mr-sm-3 ">
+                        <input class="form-check-input" type="checkbox"> Recuérdame
+                    </label>
+                    <button type="button" class="btn btn-dark"> Enviar </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <br> 
+
+    <hr>
+
+    <div class="container">
+        <h3>Label + Input + Advertencia + Check + Button </h3>
+        
+        <form action="/action_page.php" class="was-validated">
+            <div class="form-group">
+                <label for="uname">Nombre:</label>
+                <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+                <div class="valid-feedback">Válido</div>
+                <div class="invalid-feedback">Por favor llene este campo</div>
+            </div>
+            <div class="form-group">
+                <label for="pwd">Contraseña </label>
+                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+                <div class="valid-feedback">Válido .</div>
+                <div class="invalid-feedback"> Por favor llene este campo</div>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" name="remember" required> Estoy de acuerdo
+                    <div class="valid-feedback">Válido</div>
+                    <div class="invalid-feedback">Marque esta casilla de verificación para continuar.</div>
+                </label>
+            </div>
+            <button type="submit" class="btn btn-dark">Enviar</button>
+        </form>
+    </div>
+
+    <hr>
+
+    <footer class="blog-footer text-center">
+        <p> <small> © Copyrigth: <a target="_blank" class="foo" href="https://github.com/NeisserMS">Neisser
+                    Sánchez</a></small></p>
+
+        <ul class="list-inline">
+            <li class="list-inline-item"> <a target="_blank" href="https://www.instagram.com/neissercode.21/?hl=es-la">
+                    <i class="icon ion-logo-instagram"></i> </a> </li>
+            <li class="list-inline-item"> <a target="_blank" href=""> <i class="icon ion-logo-twitter"></i> </a> </li>
+            <li class="list-inline-item"> <a target="_blank"
+                    href="https://www.facebook.com/neisserarilson.morenosanchez.9/"> <i
+                        class="icon ion-logo-facebook"></i> </a> </li>
+            <li class="list-inline-item"> <a target="_blank"
+                    href="https://www.youtube.com/channel/UC0czkwt1PdL6SkjIvuuiusQ?view_as=subscriber"> <i
+                        class="icon ion-logo-youtube"></i> </a> </li>
+            <li class="list-inline-item"> <a target="_blank" href=""> <i class="icon ion-logo-dribbble"></i> </a> </li>
+        </ul>
+    </footer>
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+        integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
