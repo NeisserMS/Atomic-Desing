@@ -1,6 +1,6 @@
-# Atomic Desing 
 
- Es un pequeño sitio web (Responsive) sobre la metodología del sistema atómico, lo preparé para una exposición en la Universidad.
+
+ Es un pequeño sitio web (Responsive) sobre la metodología del sistema atómico, lo preparé para una exposición en la Universidad.  :heart_eyes:
 
  ## ¿Qué es Atomic Desing?
  
@@ -31,5 +31,6 @@ Cuando combinamos muchos organismos creamos plantillas, la cual son contenedores
 > Visita mi Blog personal donde podrás encontrar documentos 
 > sobre trabajos realizados en la universidad.
 
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/C0C01KIR7)
 
+
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/C0C01KIR7)   
