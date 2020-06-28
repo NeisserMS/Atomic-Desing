@@ -21,8 +21,7 @@ Ejemplo: Pie de pagina, Barra de navegación, etc.
 Cuando combinamos muchos organismos creamos plantillas, la cual son contenedores, osea son cajas vacías a la cual vamos a insentar datos.
 
 ### 5.-Páginas
- Los organismos son grupos de moléculas unidas para formar una sección relativamente compleja y distinta de una interfaz.
-
+ El sistema se conforma con el conjunto de organismos. Por ejemplo, un conjunto de páginas formaría la web. El conjunto de pantallas y acciones construye una app. El sistema, por lo tanto, sería la suma del todo lo anterior. Es el resultado final; la web, la aplicación, el software o cualquier producto digital que estemos desarrollando.
 ### Atomic Desing GIF
 
 ![Atomic Desing](AtomicDesing.gif)
